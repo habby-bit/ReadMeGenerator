@@ -4,7 +4,10 @@ const util = require('util');
 
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-const questions = [
+const writeFileAsync = util.promisify(fs.writeFile);
+
+const promptUser = () => {
+  return inquirer.prompt([
     {
         name: 'title',
         message: 'What is the title of your project?'
@@ -23,7 +26,7 @@ const questions = [
       },
       {
         name: 'contributing',
-        message: 'What are the contribution guidelines?'
+        message: 'Who are the contributors to this project?'
       },
       {
         name: 'tests',
@@ -53,6 +56,16 @@ const questions = [
         'Mozilla Public License 2.0',
         'The Unlicense']
       }
-];
+  ])
+};
 
-init();
+promptUser()
+  .then(data => {
+    const markdown = generateMarkdown(data);
+
+    return writeFileAsync('README.md', markdown);
+  })
+  .then(() => {
+    console.log('Successfully wrote your README.md File');
+  })
+  .catch(err => console.log(err));
