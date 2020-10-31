@@ -1,45 +1,33 @@
 
-  # Title
+  # README GENERATOR
 
   ## Description
 
-  Desc
+  This is a command-line app that runs with Node.js.
+  
+  The user is prompted with a series of questions about their project. When they have answered all of the questions, the app dynamically generates a README file. 
+
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [License](#license)
   * [Contact Me](#questions)
   
   ## Installation
 
-  Inst
+  In order to use this app:
+
+  1. Run `npm install` to install the `inquirer` package dependency.
+  2. Run `nod index.js` to invoke the app.
 
   ## Usage
 
-  Usage\
-
-
-  ## Contributing
-
-  Cont\
-
-  ## Tests
-
-  Instr\\
-
-
-  ## License
-
-  This application is covered under the Apache License 2.0\\
-
+  
 
   ## Questions?
 
   If you have any questions, please don't hesitate to reach out to me!
 
-  Github: [username](https://github.com/username)
+  Github: [habby-bit](https://github.com/habby-bit)
   
-  Email: [email](email)
+  Email: [habbyolu@gmail.com](habbyolu@gmail.com)

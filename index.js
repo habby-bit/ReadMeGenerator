@@ -22,7 +22,7 @@ const promptUser = () => {
       },
       {
         name: 'usage',
-        message: 'What is the usage information?'
+        message: 'How do you use this app?'
       },
       {
         name: 'contributing',
@@ -30,15 +30,7 @@ const promptUser = () => {
       },
       {
         name: 'tests',
-        message: 'What are the instructions?'
-      },
-      {
-        name: 'username',
-        message: 'What is your Github username?'
-      },
-      {
-        name: 'email',
-        message: 'What is your email address?'
+        message: 'What tests are included and how do you run them?'
       },
       {
         type: 'checkbox',
@@ -55,6 +47,14 @@ const promptUser = () => {
         'GNU Lesser General Public License v2.1',
         'Mozilla Public License 2.0',
         'The Unlicense']
+      },
+      {
+        name: 'username',
+        message: 'What is your Github username?'
+      },
+      {
+        name: 'email',
+        message: 'What is your email address?'
       }
   ])
 };
