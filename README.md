@@ -22,7 +22,7 @@
 
   ## Usage
   
-  ![README](https://user-images.githubusercontent.com/70072678/97792199-73268e00-1bb1-11eb-8318-2bfa1f9dbd21.gif#thumbnail)
+  
 
   ## Questions?
 
