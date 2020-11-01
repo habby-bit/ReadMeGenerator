@@ -1,9 +1,9 @@
 
-  # My Project Title.
+  # My project title.
 
   ## Description
 
-  My Project Description.
+  My project description.
 
   ## Table of Contents
 
@@ -16,27 +16,27 @@
   
   ## Installation
 
-  My Installation Instructions.
+  My installation instructions.
 
 
   ## Usage
 
-  How To Use My App.
+  My usage instructions.
 
 
   ## Contributing
 
-  Contributors To My Project.
+  My project contributors.
 
 
   ## Tests
 
-  Included Tests.
+  My project tests.
 
 
   ## License
 
-  This application is covered under the 
+  This application is covered under the None
 
 
   ## Questions?

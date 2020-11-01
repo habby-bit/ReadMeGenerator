@@ -22,11 +22,16 @@
 
   ## Usage
 
-  
+  When the user runs `node index.js` they are prompted with questions. The responses to those questions are then used to create the README.
 
+  This is depicted below with an ExampleREADME.
+
+  <img src="https://media.giphy.com/media/H5ktRob4C7CJeeBJZl/giphy.gif" alt="ExampleREADME" width="750" height="400" />
+
+  
   ## Questions?
 
-  If you have any questions, please don't hesitate to reach out to me!
+  If you have any questions, please don't hesitate to reach out!
 
   Github: [habby-bit](https://github.com/habby-bit)
   
