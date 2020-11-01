@@ -18,7 +18,7 @@
   In order to use this app:
 
   1. Run `npm install` to install the `inquirer` package dependency.
-  2. Run `nod index.js` to invoke the app.
+  2. Run `node index.js` to invoke the app.
 
   ## Usage
 

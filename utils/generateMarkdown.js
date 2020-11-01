@@ -38,12 +38,12 @@ function generateMarkdown(data) {
 
   ## License
 
-  This application is covered under the ${data.license}
+  This application is covered under: ${data.license}
 
 
   ## Questions?
 
-  If you have any questions, please don't hesitate to reach out to me!
+  If you have any questions, please don't hesitate to reach out!
 
   Github: [${data.username}](https://github.com/${data.username})
   

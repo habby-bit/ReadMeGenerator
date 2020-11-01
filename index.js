@@ -36,7 +36,7 @@ const promptUser = () => {
         type: 'checkbox',
         message: 'What license would you like?',
         name: 'license',
-        choices: ['None', 'Apache License 2.0', 
+        choices: ['N/A', 'Apache License 2.0', 
         'GNU General Public License v3.0', 
         'MIT License', 'BSD 2-Clause "Simplified" License', 
         'BSD 3-Clause "New" or "Revised" License', 

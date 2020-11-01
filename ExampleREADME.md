@@ -36,12 +36,12 @@
 
   ## License
 
-  This application is covered under the None
+  This application is covered under: N/A
 
 
   ## Questions?
 
-  If you have any questions, please don't hesitate to reach out to me!
+  If you have any questions, please don't hesitate to reach out!
 
   Github: [MyUsername](https://github.com/MyUsername)
   
